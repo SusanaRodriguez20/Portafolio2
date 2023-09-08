@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap');
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize; /* Este es para que comience con mayuscula siempre*/
+    text-decoration: none;/*Para quitar las lineas abajo de los enlaces*/
+    list-style: none;/* Quita las viñetas de las vistas */
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    background-image: url(../Imagenes/hero.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*deja una separación*/
+    z-index: 1000; /*para que se coloque el menu siempre adelante*/
+}
+.header-content{
+    display: flex;
+}
+.content{
+    padding: 150px 150px 0px 0px;
+}
+
+.portafolios{
+    padding: 80px 0px;
+    text-align: center;
+    color: #0e0e0e;
+}
+.portafolios h2{
+    font-size: 55px;
+}
+.portafolio {
+    display: flex;
+    align-items: center;
+}
+.portafolio img{
+    width: 350px;
+}
+.Diseño-1{
+    text-align: left;
+    margin-left: 100px;
+}
+.Diseño-1 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.Diseño-1 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+.consulta-2{
+    text-align: left;
+    margin-right: 100px;
+}
+.consulta-2 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.consulta-2 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+.Talleres-3{
+    text-align: left;
+    margin-right: 100px;
+}
+.Talleres-3 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.Talleres-3 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+
+.Retos-4{
+    text-align: left;
+    margin-right: 100px;
+}
+.Retos-4 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.Retos-4 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en la página */
+    align-items: center; /* Centra verticalmente en la página */
+    height: 40vh; 
+    background-image: url(../Imagenes/footer.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-content {
+    display: flex;
+    align-items: center; /* Centra verticalmente dentro de .info-content */
+}
+
+.info-price {
+    padding: 35px;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0px 
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+ }
+ .enlaces h3{
+    font-size: 25px;    
+ }
+ .enlace{
+    display: flex;
+ }
+ .enlace li a{
+    display: block;
+    margin: 20px;
+    color: white;
+ }
+ .enlace li a:hover{
+    color: #0EAEF3;
+ }
+ .btn-1{
+    display: inline-block;
+    background-attachment:rgba(170, 177, 255, 0.3);
+    border: 1px solid #cd68fc;
+    margin: 35px 10px 0px 0px;
+    padding:  15px 20px;
+    color:black;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.btn-1:hover{
+    background-color: #bc89f7;
+}
