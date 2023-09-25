@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap');
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;/*Para quitar las lineas abajo de los enlaces*/
+    list-style: none;/* Quita las viñetas de las vistas */
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    background-image: url(../Imagenes/hero.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*deja una separación*/
+    z-index: 1000; /*para que se coloque el menu siempre adelante*/
+}
+.header-content{
+    display: flex;
+}
+.content{
+    padding: 150px 150px 0px 0px;
+}
+
+.portafolios{
+    padding: 80px 0px;
+    text-align: center;
+    color: #0e0e0e;
+}
+.portafolios h2{
+    font-size: 55px;
+}
+.portafolio {
+    display: flex;
+    align-items: center;
+}
+.portafolio img{
+    width: 350px;
+}
+.Diseño-1{
+    text-align: left;
+    margin-left: 100px;
+}
+.Diseño-1 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:#9500ff;
+}
+.Diseño-1 p{
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en la página */
+    align-items: center; /* Centra verticalmente en la página */
+    height: 40vh; 
+    background-image: url(../Imagenes/footer.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-content {
+    display: flex;
+    align-items: center; /* Centra verticalmente dentro de .info-content */
+}
+
+.info-price {
+    padding: 35px;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0px 
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+ }
+ .enlaces h3{
+    font-size: 25px;    
+ }
+ .enlace{
+    display: flex;
+ }
+ .enlace li a{
+    display: block;
+    margin: 20px;
+    color: white;
+ }
+ .enlace li a:hover{
+    color: #0EAEF3;
+ }
+
+ button{
+    border: 0;
+    background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition:  .3s;
+}
+button:hover span{
+background: none;
+}
+button:active{
+    transform:  scale(0.9);
+}

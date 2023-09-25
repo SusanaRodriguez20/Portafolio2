@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000; 
+    background-color: #d6ebf1;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #9500FF; 
+    margin: 20px 0;
+}
+
+#juego {
+    display: flex;
+    width: 100%;
+    max-width: 800px; 
+    margin: 20px auto;
+    justify-content: space-between; 
+}
+
+#juego > div {
+    border: 1px solid #000;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #fff; /* Fondo blanco para las secciones */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.carton {
+    margin: auto;
+    text-align: center;
+}
+
+.numero {
+    display: inline-block;
+    border: 1px solid #000;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 1px;
+    text-align: center;
+     background-color: #00DDFF;
+    background-color: #fff; 
+    border-radius: 5px;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+.etiqueta{
+    
+        font-family:fantasy, sans-serif; 
+        font-size: 24px; 
+        text-align: center;
+        margin: 10px auto;
+}
+.tachado {
+    color: #0026ff;
+    background-color: #fc86ec;
+}
+
+#bingo {
+    text-align: center; /* Centrado horizontal */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado vertical */
+    height: 100%; /* Ocupar toda la altura disponible */
+}
+
+#bola {
+    font-size: 50px;
+    display: block;
+    margin: 20px auto;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    background-color: #00DDFF;
+    color: #000000;
+    text-align: center;
+    font-weight: bold; /* Negrita para el número en la bola */
+}
+
+.etiqueta {
+    text-align: center;
+    margin: 10px auto;
+}
+
+table {
+    background-color: #d5e6e9; /* Color morado para la tabla */
+    padding: 15px;
+    border-radius: 20px;
+    }
+
+th {
+    background-image: linear-gradient(to bottom, #9500ff, #00DDFF); 
+    width: 20%;
+    text-align: center;
+    color:black; /* Texto en blanco para encabezados */
+    /* Azul claro para encabezados */
+    padding: 10px;
+}
+
+.columna1 {
+    width: 20%;
+    background-color: #00DDFF; /* Color azul claro para la columna 1 */
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition:  .3s;
+}
+button:hover span{
+background: none;
+}
+button:active{
+    transform:  scale(0.9);
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="diseñobingo.css">
+    <script src="bingo.js"></script>
+</head>
+<a href="../index.html" class="button"><button>
+    <span>Volver</span>
+</button></a> 
+<body>
+    
+    <h1>Bingooo!</h1>
+  
+    <div id="juego">
+        <div class="carton cartonJugador">
+            <div class="etiqueta">Jugador</div>
+            <table>
+                <tr>
+                    <th class="columna1"> B</th>
+                    <th class="columna1"> I</th>
+                    <th class="columna1"> N</th>
+                    <th class="columna1"> G</th>
+                    <th class="columna1"> 0</th>
+                </tr>
+                <tr>
+                    <td id="square0"> &nbsp;</td>
+                    <td id="square1"> &nbsp;</td>
+                    <td id="square2"> &nbsp;</td>
+                    <td id="square3"> &nbsp;</td>
+                    <td id="square4"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square5"> &nbsp;</td>
+                    <td id="square6"> &nbsp;</td>
+                    <td id="square7"> &nbsp;</td>
+                    <td id="square8"> &nbsp;</td>
+                    <td id="square9"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square10"> &nbsp;</td>
+                    <td id="square11"> &nbsp;</td>
+                    <td id="square12"> </td>
+                    <td id="square13"> &nbsp;</td>
+                    <td id="square14"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square15"> &nbsp;</td>
+                    <td id="square16"> &nbsp;</td>
+                    <td id="square17"> &nbsp;</td>
+                    <td id="square18"> &nbsp;</td>
+                    <td id="square19"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square20"> &nbsp;</td>
+                    <td id="square21"> &nbsp;</td>
+                    <td id="square22"> &nbsp;</td>
+                    <td id="square23"> &nbsp;</td>
+                    <td id="square24"> &nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        
+
+        <div id="bingo">
+            <div id="bola"></div>
+            <button onClick="sacarBola();">SACAR BOLA</button>
+        </div>
+        <div class="carton cartonCpu">
+            <div class="etiqueta">CPU</div>
+            <table>
+                <tr>
+                    <th class="columna1"> B</th>
+                    <th class="columna1"> I</th>
+                    <th class="columna1"> N</th>
+                    <th class="columna1"> G</th>
+                    <th class="columna1"> 0</th>
+                </tr>
+                <tr>
+                    <td id="square0"> &nbsp;</td>
+                    <td id="square1"> &nbsp;</td>
+                    <td id="square2"> &nbsp;</td>
+                    <td id="square3"> &nbsp;</td>
+                    <td id="square4"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square5"> &nbsp;</td>
+                    <td id="square6"> &nbsp;</td>
+                    <td id="square7"> &nbsp;</td>
+                    <td id="square8"> &nbsp;</td>
+                    <td id="square9"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square10"> &nbsp;</td>
+                    <td id="square11"> &nbsp;</td>
+                    <td id="square12"> </td>
+                    <td id="square13"> &nbsp;</td>
+                    <td id="square14"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square15"> &nbsp;</td>
+                    <td id="square16"> &nbsp;</td>
+                    <td id="square17"> &nbsp;</td>
+                    <td id="square18"> &nbsp;</td>
+                    <td id="square19"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="square20"> &nbsp;</td>
+                    <td id="square21"> &nbsp;</td>
+                    <td id="square22"> &nbsp;</td>
+                    <td id="square23"> &nbsp;</td>
+                    <td id="square24"> &nbsp;</td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    <button onclick="anotherCard()">NUEVA TARJETA</button>
+
+    
+</body>
+
+
+
+</html>
