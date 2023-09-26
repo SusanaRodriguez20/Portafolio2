@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Croissant One", cursive;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 48px;
+}
+.contenedor {
+  background-color: rgb(146, 233, 146);
+  width: 1000px;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+}
+.foto-logo {
+  border-radius: 15px 15px 0px 0px;
+}
+.titular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slogan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+  margin: 15px;
+}
+.icon-menu {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+.texto-slogan {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(187, 58, 238);
+  border-style: solid;
+  padding: 15px;
+  margin: 5px;
+  justify-content: center;
+}
+.boton {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(201, 162, 238);
+  border-radius: 90px;
+  color: rgb(17, 15, 16);
+  text-align: center;
+}
+.boton:hover {
+  color: rgb(156, 209, 240);
+  background-color: rgb(104, 69, 121);
+}
+.piepagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  margin: 15px;
+}
+.ficha {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-style: solid;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: solid;
+  margin: 15px;
+}
+button{
+    border: 0;
+    background-image: linear-gradient(150deg,#78ff4f,rgb(106, 188, 243),#00DDFF);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition:  .3s;
+}
+button:hover span{
+background: none;
+}
+button:active{
+    transform:  scale(0.9);
+}
+@media screen and (max-width: 992px) {
+    .contenedor{
+        width:700px ;
+    }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+  }
+  .ficha{
+    width: 80%;
+  }
+  .slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
