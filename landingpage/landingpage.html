@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="estilolanding.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="#" class="logo">Destino</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="../Imagenes/menu.png" class="menu-icono" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="actividades.html">Actividades</a></li>
+            <li><a href="#">Alojamiento</a></li>
+            <li><a href="reservaciones.html">Reservaciones</a></li>
+            <li><a href="instructores.html">Instructores/Seguridad</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-txt">
+          <h1>Bienvenido a El Paraíso</h1>
+          <p>
+            Sumérgete en la aventura definitiva y descubre un rincón del mundo
+            donde la naturaleza salvaje y los deportes extremos se unen para
+            ofrecerte una experiencia inolvidable. En Destino Turístico El
+            Paraíso, te esperan paisajes de ensueño, emocionantes actividades al
+            aire libre y una conexión única con la naturaleza. Pero eso no es
+            todo. Nuestra conexión única con la naturaleza te permite descansar
+            y relajarte en medio de la belleza salvaje. Imagina despertar con el
+            canto de las aves y la brisa fresca del bosque. En El Paraíso, la
+            aventura y la comodidad se unen para ofrecerte una experiencia
+            inolvidable.
+          </p>
+        </div>
+      </div>
+
+      <div class="images">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../imagenes/paseo en bici.jpg" alt="" />
+              <h3>Bmx</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="../imagenes/escalada.jpg" alt="" />
+              <h3>Escalada</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="../imagenes/senderismo.jpg" alt="" />
+              <h3>senderismo</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="../imagenes/rafting.jpg" alt="" />
+              <h3>Rafting</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="../imagenes/2.jpg" alt="" />
+              <h3>Piragüismo</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="rows">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="landing.js"></script>
+  </body>
+</html>

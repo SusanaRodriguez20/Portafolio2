@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.header{
+    background-image: url(../Imagenes/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+color: white;
+font-size: 25px;
+font-weight: bold;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover{
+color: #266371;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color: #266371;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    width: 40%;
+}
+.header-txt h1{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #266371;
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header-txt p{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.images{
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+    
+}
+
+.container h2 {
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #123b44;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: 700;
+    color: #266371;
+    display: block;
+    margin-top: 10px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contenedor {
+    text-align: center; 
+    align-items: center; 
+  }
+  
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  form select,
+  form input[type="number"],
+  form input[type="date"],
+  form input[type="text"],
+  form input[type="tel"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+ 
+  form button {
+    grid-column: span 2;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #266371;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  form button:hover {
+    background-color: #099fa6;
+  }
+@media(max-width: 991px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3f3f3f48;
+        backdrop-filter: blur(5px);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .icons{
+        display: none;
+    }
+    .header{
+        padding: 80px 30px 50px 30px;
+        align-items: self-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-txt{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .header-txt h1{
+        margin-bottom: 10px;
+    }
+    .images{
+        position: initial;
+        width: 300px;
+        height: 300px;
+    }
+    .rows{
+        display: none;
+    }
+ }
+ @media (max-width: 767px) {
+    form {
+      grid-template-columns: 1fr;
+    }
+  }
